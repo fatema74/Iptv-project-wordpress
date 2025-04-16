@@ -1,0 +1,25 @@
+/**
+Template name: iptv project
+version: 1.0.0
+Author: Fatema
+Tags: IPTV
+Description: This is a HTML template based on iptv service
+**/
+
+
+
+// theme files
+@import 'theme/variables';
+@import 'theme/typography';
+@import 'theme/spacing';
+@import 'theme/mixin';
+
+
+// components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/button';
+
+// pages
+@import 'pages/index-1';
+@import 'pages/blog';
