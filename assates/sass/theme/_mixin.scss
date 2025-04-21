@@ -1,0 +1,15 @@
+// mixin breackpoints
+
+@mixin screen-992{
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+
+
+@mixin screen-575{
+  @media (max-width: 575px) {
+    @content;
+  }
+}

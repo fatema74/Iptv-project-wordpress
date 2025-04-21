@@ -1,4 +1,54 @@
+// font
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Black.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Bold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-ExtraBold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-SemiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-ExtraLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Light.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: axiforma;
+  src: url(../webfonts/axiforma/Metropolis-Thin.otf);
+  font-weight: 100;
+}
+
+
+
 // variables
 
 $color-white: #ffffff;
 $darck-bg: #253745;
+$primary-color: #FF3B6A;

@@ -1,9 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container{
   max-width: 1200px;
-  padding: 0;
   margin: 0 auto;
 }
 
 body{
-  background: black;
+  background: #122125;
+  font-family: axiforma;
+}
+
+.pl-40{
+  padding-left: 40px;
+}
+.pl-30{
+  padding-left: 30px;
+}
+.pl-992-0{
+  @include screen-992{
+    padding-left: 0;
+  }
 }

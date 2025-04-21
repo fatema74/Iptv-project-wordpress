@@ -4,6 +4,10 @@
 
 .ip-header-right{
   gap: 90px;
+
+  @include screen-575{
+    gap: 24px;
+  }
 }
 
 .ip-language-switcher{
@@ -40,4 +44,10 @@
   color: $color-white;
   font-weight: 600;
 }
+
+  @include screen-575{
+    &::before{
+      left: -12px;
+    }
+  }
 }

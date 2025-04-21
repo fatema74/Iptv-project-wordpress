@@ -10,10 +10,11 @@ Description: This is a HTML template based on iptv service
 
 // theme files
 @import 'theme/variables';
+@import 'theme/mixin';
 @import 'theme/typography';
 @import 'theme/spacing';
 @import 'theme/theme-class';
-@import 'theme/mixin';
+
 
 
 // components
