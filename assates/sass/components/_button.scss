@@ -1,0 +1,33 @@
+.ip-template-btn{
+font-weight: 600;
+line-height: 100%;
+display: inline-block;
+text-transform: uppercase;
+border: 1px solid transparent;
+padding: 24px 32px;
+border-radius: 24px;
+transition: 0.3s;
+}
+
+.ip-praimary-btn{
+  color: $color-white;
+  background: $primary-color;
+  border-color: $primary-color;
+  &:hover{
+    background: $darck-bg;
+    border-color: $darck-bg;
+  }
+}
+
+.ip-outline-btn{
+  color: $color-white;
+  background: transparent;
+  border-color: rgba($color-white, 0.1);
+  &:hover{
+    background: $darck-bg;
+    border-color: $darck-bg;
+  }
+}
+
+
+
