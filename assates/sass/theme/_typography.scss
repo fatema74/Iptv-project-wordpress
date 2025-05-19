@@ -9,3 +9,19 @@ ul{
 }
 
 
+h1{
+  font-size: 64px;
+  font-weight: 700;
+
+  @include screen-992 {
+    font-size: 50px;
+  }
+}
+
+h2{
+  font-size: 76px;
+
+  @include screen-992 {
+    font-size: 50px;
+  }
+}

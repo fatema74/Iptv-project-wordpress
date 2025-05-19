@@ -1,6 +1,6 @@
 // hero section start
 .ip-hero-section {
-  padding: 360px 0 150px;
+  padding: 360px 0 0;
   margin-top: -260px;
   &::before {
     content: '';
@@ -27,7 +27,6 @@
       filter: blur(100px);
     }
     .ip-hero-title {
-      font-size: 64px;
       text-transform: capitalize;
       font-weight: 300;
       line-height: 120%;
@@ -50,6 +49,7 @@
       padding: 27px 0;
     }
   }
+
   .ip-hero-slider {
     // margin-top: 50px;
     .swiper-slide {
@@ -92,13 +92,16 @@
 
 // feature section start
 
-.ip-feature-section{
+.ip-feature-section {
   background: #122429;
+  padding: 51px 0;
+  transform: rotate(-3deg);
+  margin-top: -50px;
   .ip-feature-content {
-    h3{
+    h3 {
       font-weight: 800;
     }
-    strong{
+    strong {
       font-weight: 800;
     }
     p {
@@ -110,3 +113,94 @@
   }
 }
 
+// subscrioption section start
+.ip-subscription {
+  padding: 150px 0;
+
+  .ip-cd-shap{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+
+  .ip-sb-blur-shape {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    background: linear-gradient(180deg, #5685f5 0%, #89f9b6 100%);
+    opacity: 0.43;
+    filter: blur(150px);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    z-index: -1;
+  }
+
+  .ip-explore-btn {
+    color: $color-white;
+  }
+  .ip-explore-wraper {
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+  .ip-section-tilte {
+    h2 {
+      
+      font-weight: 300;
+      span {
+        font-weight: 700;
+        line-height: 108%;
+        display: block;
+      }
+    }
+  }
+  .ip-section-description {
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+  .ip-sp-card {
+    background: #0b1c21;
+    padding: 60px 40px;
+    transform: rotate(-3deg);
+    border-radius: 16px;
+    clip-path: polygon(88% 0, 100% 13%, 100% 100%, 0 100%, 0 0);
+    position: relative;
+    z-index: 1;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 7px;
+      width: calc(100% - 14px);
+      height: calc(100% - 14px);
+      background: #122429;
+      z-index: -1;
+      border-radius: 16px;
+      clip-path: polygon(88% 0, 100% 13%, 100% 100%, 0 100%, 0 0);
+    }
+    h4 {
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 130%;
+      letter-spacing: 0%;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0%;
+    }
+  }
+  
+  @include screen-575 {
+    .ip-cd-shap{
+      top: 25px;
+      width: 160px;
+      left: 30%;
+    }
+  }
+}
