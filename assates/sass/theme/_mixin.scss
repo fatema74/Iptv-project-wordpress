@@ -1,12 +1,33 @@
 // mixin breackpoints
-
-@mixin screen-992{
-  @media (max-width: 992px) {
+@mixin screen-2200{
+  @media (max-width: 2200px) {
     @content;
   }
 }
 
+@mixin screen-1800{
+  @media (max-width: 1800px) {
+    @content;
+  }
+}
 
+@mixin screen-1200{
+  @media (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin screen-992{
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin screen-768{
+  @media (max-width: 768px) {
+    @content;
+  }
+}
 
 @mixin screen-575{
   @media (max-width: 575px) {

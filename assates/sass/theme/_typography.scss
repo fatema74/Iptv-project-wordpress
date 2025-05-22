@@ -11,7 +11,6 @@ ul{
 
 h1{
   font-size: 64px;
-  font-weight: 700;
 
   @include screen-992 {
     font-size: 50px;
@@ -20,8 +19,21 @@ h1{
 
 h2{
   font-size: 76px;
+  font-weight: 300;
 
   @include screen-992 {
     font-size: 50px;
+  }
+}
+
+.mx-655{
+  max-width: 655px;
+}
+
+.ip-title{
+  h2{
+    span{
+      font-weight: 600;
+    }
   }
 }

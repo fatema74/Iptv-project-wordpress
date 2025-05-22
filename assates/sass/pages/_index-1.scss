@@ -31,7 +31,7 @@
       font-weight: 300;
       line-height: 120%;
       .ip-hero-title-bold {
-        font-weight: 700;
+        font-weight: 600;
       }
       .line-shape-wrapper {
         position: relative;
@@ -99,13 +99,13 @@
   margin-top: -50px;
   .ip-feature-content {
     h3 {
-      font-weight: 800;
+      font-weight: 700;
     }
     strong {
-      font-weight: 800;
+      font-weight: 700;
     }
     p {
-      font-weight: 800;
+      font-weight: 700;
       font-size: 16px;
       line-height: 25px;
       letter-spacing: 0%;
@@ -117,7 +117,7 @@
 .ip-subscription {
   padding: 150px 0;
 
-  .ip-cd-shap{
+  .ip-cd-shap {
     left: 50%;
     transform: translateX(-50%);
     top: 0;
@@ -145,10 +145,8 @@
   }
   .ip-section-tilte {
     h2 {
-      
-      font-weight: 300;
       span {
-        font-weight: 700;
+        font-weight: 600;
         line-height: 108%;
         display: block;
       }
@@ -183,7 +181,7 @@
       clip-path: polygon(88% 0, 100% 13%, 100% 100%, 0 100%, 0 0);
     }
     h4 {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 27px;
       line-height: 130%;
       letter-spacing: 0%;
@@ -195,12 +193,58 @@
       letter-spacing: 0%;
     }
   }
-  
+
   @include screen-575 {
-    .ip-cd-shap{
+    .ip-cd-shap {
       top: 25px;
       width: 160px;
       left: 30%;
     }
   }
+}
+
+// series section
+.ip-series-slider-wrapper{
+  .ip-monitor-shape{
+    position: absolute;
+    top: -90px;
+    z-index: 2;
+    right: -10px;
+
+    @include screen-2200{
+      top: -108px;          
+    }
+
+    @include screen-1800{
+      top: -40px;
+      width: 500px;
+    }
+    @include screen-768{
+      display: none;
+    }
+  }
+}
+
+.ip-series-slider{
+  transform: rotate(-3deg);
+  .swiper-wrapper{
+    transition-timing-function: linear !important;
+  }
+  
+  .swiper-slide{
+    width: auto;
+
+    .ip-series-thumb{
+      display: inline-block;
+      overflow: hidden;
+      opacity: 0.6;
+      img{
+        width: 180px;
+        height: 250px;
+        border-radius: 24px;
+      }
+    }
+  }
+
+  
 }
