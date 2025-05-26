@@ -245,6 +245,20 @@
       }
     }
   }
+}
 
-  
+// brand section 
+.ip-brand-section {
+  background: #122429;
+  padding: 80px 0;
+  transform: rotate(-3deg);
+  margin-top: 60px;
+  z-index: 10;
+
+  .swiper-wrapper{
+    transition-timing-function: linear !important;
+    .swiper-slide{
+      width: auto;
+    }
+  }
 }
